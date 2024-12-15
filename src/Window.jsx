@@ -1,5 +1,5 @@
 import React from "react";
-import "./Window.css";
+import "./window.css";
 
 function Window({ title }) {
   return (
