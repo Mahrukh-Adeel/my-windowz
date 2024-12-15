@@ -5,6 +5,7 @@ This project is a retro-themed personal website featuring a 90s Windows-style UI
 Home: A welcoming page with a vintage Windows interface.
 Cats: A section dedicated to your love of cats, with cute and engaging content.
 Mood Board: A fun space to share your mood, ideas, or creative inspirations.
+Burnin: (incomplete)
 Diary: An area to display tasks, updates, and more. (incomplete)
 
 ## Tech Stack
