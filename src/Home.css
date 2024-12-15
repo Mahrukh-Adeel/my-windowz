@@ -1,0 +1,37 @@
+.main{
+    background-image: url('https://images.pexels.com/photos/896673/pexels-photo-896673.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size:cover; 
+      width:full;
+  height:full;
+  background-repeat: no-repeat; 
+  padding-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.retro-text {
+    font-family: "Press Start 2P", monospace;
+    color: var(--primary-accent);
+    text-shadow: 2px 2px 0 #000;
+    animation: glitch-text 1s infinite linear alternate-reverse;
+  }
+  
+  @keyframes glitch-text {
+    0% { transform: translateX(-2px) skew(-5deg); }
+    50% { transform: translateX(2px) skew(5deg); }
+    100% { transform: translateX(0) skew(0); }
+  }
+
+  .blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    font-size: x-large;
+    color: white;
+  }
+  
+  @keyframes blink-animation {
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

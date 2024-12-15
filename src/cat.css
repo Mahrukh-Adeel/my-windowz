@@ -1,0 +1,70 @@
+.main1{
+    /* background-image: url('./assets/vecteezy_pixel-cat-head-on-black-background_32324117.jpg');
+    background-size:cover; 
+      width:full;
+  height:full;
+  background-repeat: repeat;  */
+  background-color: black;
+  padding-bottom: 15px;
+}
+
+.cat-neon-text {
+    position: relative;
+    font-family: "VT323", monospace;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+    
+    text-shadow: 
+      0 0 7px #ff69b4,      
+      0 0 10px #ff1493,     
+      0 0 21px #ff1493,     
+      0 0 42px #ff69b4,     
+      0 0 82px #ff1493,    
+      0 0 92px #8a2be2;  
+    
+    animation: 
+      cat-neon-flicker 1.5s infinite alternate,
+      cat-neon-pulse 3s infinite alternate;
+  }
+  
+  @keyframes cat-neon-flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow: 
+        0 0 7px #ff69b4,
+        0 0 10px #ff1493,
+        0 0 21px #ff1493,
+        0 0 42px #ff69b4,
+        0 0 82px #ff1493,
+        0 0 92px #8a2be2;
+    }
+    20%, 24%, 55% {
+      text-shadow: none;
+    }
+  }
+  
+  @keyframes cat-neon-pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+  }
+
+  .ccode img{
+    height: 100px;
+    width: 100px;
+    box-shadow: 
+        0 0 7px #ff69b4,
+        0 0 10px #ff1493,
+        0 0 21px #ff1493,
+        0 0 42px #ff69b4,
+        0 0 82px #ff1493,
+        0 0 92px #8a2be2;
+  }
+  .ccode h1{
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    font-family: "VT323", monospace;
+    font-size: x-large;
+  }

@@ -1,0 +1,126 @@
+:root {
+    --bg-color: #008080;
+    --close-color: #e9e5e5;
+    --border-color: #7a7a7a;
+    --shadow-color: #333333;
+    --highlight-color: #ace7ef;
+    --text-color: #000000;
+    --muted-text-color: #606060;
+    --tab-color: #797676;
+    --tab2-color: #cecdcd;
+    --button-color: rgb(206, 204, 204);
+  }
+  .window-container {
+    padding-right: 2px;
+    margin-left: 10%;
+    position: relative;
+    min-width: auto;
+    margin: 2rem auto;
+    font-size: large;
+    background-color: var(--tab2-color);
+    border-top: 2px outset white;
+    border-left: 2px outset white;
+    border-bottom: 2px inset black;
+    border-right: 2px inset black;
+  }
+  
+  .window-header {
+    /* background-color: var(--tab-color); */
+    background-color: rgba(0, 0, 255, 0.849);
+    font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-size: small;
+  color: white;
+    padding: 0 15px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    outline: non2;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+
+  }
+  
+  .window-header span {
+    font-weight: bold;
+  }
+  
+  .close-btn {
+    border: none;
+    margin-left: 10px;
+    background: var(--close-color);
+    color: var(--text-color);
+    padding: 0.09rem 0.3rem;
+    padding-bottom: 0%;
+    margin: 1px 1px;
+    cursor: url("https://www.cssscript.com/demo/animated-custom-cursors/images/MagnifiedWorkingInBackground.png"),
+      auto;
+    /* border-top: 1px outset white; */
+    border-left:2px inset white;
+    border-top:2px inset white;
+    box-sizing: border-box;
+    border-bottom: 2px outset black;
+    border-right: 2px outset black;
+    outline: none;
+  }
+  
+  .close-btn:active {
+    border-bottom: 2px inset black;
+    border-right: 2px inset black;
+    border-top: 2px outset white;
+    border-left: 2px outset white;
+  }
+  
+  .window-body {
+    padding: 1rem;
+    background-color: var(--tab2-color);
+    color: var(--text-color);
+  }
+  
+  /* Footer of the window */
+  .window-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    border-top: 1px solid var(--border-color);
+  }
+  
+.retro-button {
+    border-top: 1px outset white;
+    border-left: 1px outset white;
+    border-bottom: 1px inset black;
+    border-right: 1px inset black;
+    background-color: var(--button-color);
+    font-weight: bold;
+    cursor: url("https://www.cssscript.com/demo/animated-custom-cursors/images/MagnifiedWorkingInBackground.png"),
+      auto;
+    padding: 0.5rem 1rem;
+  }
+
+  .retro-button:active {
+    border-top: 1px inset black;
+    border-left: 1px inset black;
+    border-bottom: 1px outset white;
+    border-right: 1px outset white;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .blinking-text {
+    animation: blink 2s infinite;
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  }
+  
+  

@@ -1,0 +1,55 @@
+.mood-container {
+    background-color: #ffeb3b; /* Bright retro yellow */
+    color: #1b1b1b;
+    font-family: 'Press Start 2P', monospace; /* Retro font */
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #ff1493;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: full;
+    height: full;
+    overflow-y: auto;
+}
+
+.mood-header {
+    margin-bottom: 20px;
+}
+
+.mood-title {
+    font-size: 2.5rem;
+    color: #ff1493;
+    text-shadow: 0 0 5px #ff69b4, 0 0 10px #ff1493;
+}
+
+.mood-description {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #1b1b1b;
+}
+
+.mood-images {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.mood-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.mood-footer {
+    margin-top: 20px;
+}
+
+.footer-text {
+    font-size: 1rem;
+    color: #ff1493;
+}
