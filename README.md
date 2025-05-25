@@ -17,7 +17,7 @@ Diary: An area to display tasks, updates, and more. (incomplete)
 [Link](https://my-windowz.netlify.app/)
 
 ### Home section
-![Home page screenshot](./Image)
+![Home page screenshot](./retro.png)
 
 ### Resourses used doc
 [Doc file](./Icon%20gif%20from%20gif%20cities.docx)
